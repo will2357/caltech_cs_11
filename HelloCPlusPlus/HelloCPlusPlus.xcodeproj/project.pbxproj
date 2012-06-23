@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0A09FA15965C8A00D27517 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0A09F915965C8A00D27517 /* main.cpp */; };
+		BE0A09FC15965C8A00D27517 /* HelloCPlusPlus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0A09FB15965C8A00D27517 /* HelloCPlusPlus.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE0A09F315965C8A00D27517 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BE0A09FC15965C8A00D27517 /* HelloCPlusPlus.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE0A09F515965C8A00D27517 /* HelloCPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloCPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0A09F915965C8A00D27517 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BE0A09FB15965C8A00D27517 /* HelloCPlusPlus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloCPlusPlus.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0A09F215965C8A00D27517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0A09EA15965C8A00D27517 = {
+			isa = PBXGroup;
+			children = (
+				BE0A09F815965C8A00D27517 /* HelloCPlusPlus */,
+				BE0A09F615965C8A00D27517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0A09F615965C8A00D27517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A09F515965C8A00D27517 /* HelloCPlusPlus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0A09F815965C8A00D27517 /* HelloCPlusPlus */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A09F915965C8A00D27517 /* main.cpp */,
+				BE0A09FB15965C8A00D27517 /* HelloCPlusPlus.1 */,
+			);
+			path = HelloCPlusPlus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0A09F415965C8A00D27517 /* HelloCPlusPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0A09FF15965C8A00D27517 /* Build configuration list for PBXNativeTarget "HelloCPlusPlus" */;
+			buildPhases = (
+				BE0A09F115965C8A00D27517 /* Sources */,
+				BE0A09F215965C8A00D27517 /* Frameworks */,
+				BE0A09F315965C8A00D27517 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCPlusPlus;
+			productName = HelloCPlusPlus;
+			productReference = BE0A09F515965C8A00D27517 /* HelloCPlusPlus */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0A09EC15965C8A00D27517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BE0A09EF15965C8A00D27517 /* Build configuration list for PBXProject "HelloCPlusPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE0A09EA15965C8A00D27517;
+			productRefGroup = BE0A09F615965C8A00D27517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0A09F415965C8A00D27517 /* HelloCPlusPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0A09F115965C8A00D27517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0A09FA15965C8A00D27517 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE0A09FD15965C8A00D27517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE0A09FE15965C8A00D27517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE0A0A0015965C8A00D27517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE0A0A0115965C8A00D27517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0A09EF15965C8A00D27517 /* Build configuration list for PBXProject "HelloCPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0A09FD15965C8A00D27517 /* Debug */,
+				BE0A09FE15965C8A00D27517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0A09FF15965C8A00D27517 /* Build configuration list for PBXNativeTarget "HelloCPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0A0A0015965C8A00D27517 /* Debug */,
+				BE0A0A0115965C8A00D27517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0A09EC15965C8A00D27517 /* Project object */;
+}
