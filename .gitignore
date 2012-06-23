@@ -13,3 +13,6 @@
 
 # Xcode Projects
 **/*.xcodeproj/
+
+#OS X
+.DS_Store
