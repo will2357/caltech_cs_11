@@ -16,3 +16,6 @@
 
 #OS X
 .DS_Store
+
+# Exuberant Ctags
+tags
